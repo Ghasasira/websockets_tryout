@@ -4,10 +4,15 @@ import (
 	"experimental/routes"
 	"fmt"
 	"net/http"
+	"os"
 )
 
 func main() {
-	fmt.Println("Starting................................")
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "3000"
+	}
+	fmt.Println("Starting at port................................")
 	r := routes.RoutesSetup()
-	http.ListenAndServe(":3000", r)
+	http.ListenAndServe("0.0.0.0:"+port, r)
 }
