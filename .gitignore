@@ -1,0 +1,107 @@
+*.a
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.jar
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*_build
+*.class
+*.gcda
+*.gcno
+*.prof
+bin
+pkg
+Godeps/_workspace/
+Godeps/_vendor/
+vendor/
+_obj/
+_test/
+testdata/
+test_output/
+cover/
+profiles/
+runtime/
+build/
+dist/
+.DS_Store
+.git/
+.gitignore
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.cache
+.DS_Store
+nbproject/
+.settings/
+.classpath
+.project
+*.launch
+*.code-workspace
+
+# Docker
+Dockerfile*
+docker-compose.*
+.dockerignore
+
+# IDEs and editors
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.user
+*.cache
+.DS_Store
+nbproject/
+.settings/
+.classpath
+.project
+*.launch
+*.code-workspace
+
+# Logs
+*.log
+*.err
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Specific to Go
+# Compiled binaries for other systems are generally not useful
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build generated files
+_obj/
+_test/
+testdata/
+test_output/
+cover/
+profiles/
+runtime/
+build/
+dist/
+
+# Dependency directories (if using a particular tool or build system)
+vendor/
+Godeps/_workspace/
+Godeps/_vendor/
+
+# Generated files
+*.pb.go # Protocol buffer compiler output
+*.pb.gw.go # gRPC Gateway generated code
+*.pb.json # Protocol buffer definition files (if you want to store them)
